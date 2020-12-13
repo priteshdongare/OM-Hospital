@@ -1,0 +1,689 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+.background-header{
+    background-image: url("../img/Hospital\ banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-header .fixed{
+     max-width: 1300px;
+     margin: 0 auto;
+     padding: 1.4rem 0;
+     background: transparent;   
+     position: sticky;
+}
+
+.background-header .fixed .containerg{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.background-header .fixed .flex .img{
+    width: 15%;
+}
+
+.background-header .fixed .flex .img a{
+    font-family: 'Montserrat';
+    color: #01bbbf;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.background-header .fixed .flex .img a img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.background-header .fixed .flex .ul{
+    width:40%;
+}
+
+.background-header .fixed .flex span{
+    display: none;
+}
+
+.list{
+   width: 100%;
+   height: 3rem;
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+.list li a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.list li a:hover{
+    color: #01bbbf;
+} 
+
+.background-header .container .banner{
+    width: 100%;
+}
+
+.background-header .container .banner .heading{
+    width: 60%;
+}
+
+.background-header .container .banner .heart{
+    width: 30%;
+}
+
+.background-header .container .banner .heart img{
+    width: 100%;
+}
+.background-header .container .banner .heart img{
+    width: 100%;
+    animation: hart 1s linear infinite;
+}
+
+@keyframes hart {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.background-header .banner{
+  padding: 9.7rem 0 9.7rem 0; 
+    
+}
+
+.background-header .banner .heading h1{
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3.3rem;
+    margin: 2rem 0  3.5rem 0;
+    
+}
+
+.background-header .container .banner .bttn{
+    outline: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0 10px;
+    border-radius: 2rem;
+    color:  #01bbbf;
+}
+
+ .background-header .container .banner .click{
+ animation: pritesh 1s linear infinite;
+}
+@keyframes pritesh {
+    0%{
+        
+    }
+    50%{
+        border: 1px solid #01bbbf;
+    }
+    100%{
+        
+    }
+} 
+
+.background-header .container .banner .bttn:hover{
+    background-color: #01bbbf;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+@media only screen and (max-width:1000px){
+    .background-header .fixed .flex .ul{
+        width:50%;
+    }
+    .background-header .fixed .flex .img{
+        width: 45%;
+    }
+    .appointment{
+        text-align: center;
+      }
+}
+
+@media only screen and (max-width:800px){
+    .background-header .fixed .flex .ul{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: none;
+        padding: 1rem 2rem;
+    }
+    .background-header .fixed .flex .img{
+        width: 45%;
+    }
+
+    .flexi{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .block{
+        display: block;
+    }
+
+    .background-header .container .banner .heading{
+        width: 100%;
+    }
+    
+    .background-header .container .banner .heart{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    
+    .background-header .container .banner .heart img{
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+    .background-header .banner{
+        padding: 4.5rem 0 4.5rem 0; 
+          
+      }
+    .background-header .fixed .flex span{
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .list li {
+      padding: 0.2rem 0;
+    }
+
+    .background-header .banner .heading{
+        text-align: center;
+    }
+
+    .background-header .banner .heading h1{
+        font-size: 2.5rem;
+        text-align: center;
+        
+    }
+
+    .background-header .container .banner .bttn{
+        outline: none;
+        padding: 0.5rem 1rem;
+        margin: 0  7px;
+        border-radius: 2rem;
+    }
+
+    .appointment{
+      text-align: center;
+      font-size: 2rem;
+    }
+
+   .top{
+    margin-top: 0 !important;
+   }
+   .top .about-info h1{
+    text-align: center;
+    font-size: 1.7rem !important;
+   }
+
+   .top .about-info{
+       padding: 0 2.5rem;
+   }
+
+   .top .about-info p{
+    font-size:  0.9rem;
+   line-height: 1.4rem;
+}
+    
+}
+
+.full{
+    width: 100%;
+    background-color: #01bbbf;
+    padding-bottom:0.7rem;
+}
+
+.appointment{
+    color: #ffffff;
+}
+
+.appointment a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.normal{
+    display: flex;
+    text-align: center;
+}
+/* complete banner  */
+
+/* 3 section  */
+.sections{
+    padding: 4rem 0;
+}
+
+.span{
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+}
+
+.span span{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-top: 0.9rem;
+}
+
+.center h3{
+    font-weight: bold;
+}
+
+.color-1st{
+    background-color: #5254ff;
+}
+.color-2nd{
+    background-color: #51d5a0;
+}
+.color-3rd{
+    background-color: #f98f75;
+}
+
+.new{
+    animation: dongare 3s linear infinite;
+}
+@keyframes dongare {
+    0%{
+        
+    }
+    50%{
+        color: #5254ff ;
+    }
+    100%{
+        
+    }
+} 
+.newi{
+    animation: dongareo 4s linear infinite;
+}
+@keyframes dongareo {
+    0%{
+        
+    }
+    50%{
+        color: #51d5a0;
+    }
+    100%{
+        
+    }
+} 
+
+.newib{
+    animation: dongareb 5s linear infinite;
+}
+@keyframes dongareb {
+    0%{
+        
+    }
+    50%{
+        color: #f98f75;
+    }
+    100%{
+        
+    }
+} 
+.span span{
+animation: hart 1s linear infinite;
+}
+
+@keyframes hart {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* about */
+
+.img-width img{
+     width: 100%;
+}
+
+
+.img-width {
+     width: 90%;
+     margin: 0 auto;
+}
+
+.about-info h1{
+     font-weight: bold;
+     font-size:2rem;
+     color: #01bbbf;
+}
+
+.about-info p{
+     font-size:  1.1rem;
+    line-height: 1.7rem;
+}
+
+.top{
+    margin-top: 3rem;
+}
+
+/* search-box */
+#DR h5{
+    font-weight: bold;
+}
+
+#DR h2{
+    font-weight: bold;
+    color: #5254ff ;
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+
+#find .centered h2{
+    font-size:  1.8rem;
+    font-weight: bold;
+    color: #01bbbf;
+}
+
+#find .position-btt{
+    position: relative;
+}
+
+#find .search-box input{
+  padding: 0rem 0.9rem;
+  width: 40%;
+  height: 2.9rem;
+  border: 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 25px;
+  outline: none;
+}
+
+#find .search-box button{
+  width: 7rem;
+  height: 2.9rem;
+  border: 0;
+  border: 1px solid #01bbbf;
+  color: #ffffff;
+  background-color: #01bbbf;
+  border-radius: 25px;
+  outline: none;
+  position: absolute;
+  left: 61.3%;
+}
+
+#find .search-box input:focus{
+    border-radius: 25px;
+    border: 1px solid #01bbbf;
+}
+
+
+
+@media only screen and (max-width:800px){
+    #find .search-box input{
+        padding: 0rem 0.9rem;
+        width: 47%;
+        height: 2rem;
+      }
+
+      #find .search-box button{
+        width: 6rem;
+        height: 2rem;
+      }
+
+}
+
+@media only screen and (max-width:500px){
+     ::placeholder{
+         font-size: 0.8rem;
+     }
+     #find .search-box input{
+        width: 55%;
+      }
+}
+
+/* Appointment-section */
+
+.Appointment-section .midale{
+    width: 50%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: block;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+}
+
+.Appointment-section{
+    width: 100%;
+    background-image: url("../img/Appointment-section.jpg");
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+}
+
+.Appointment-section .midale .chan .form-group input{
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 25px;
+    outline: none;
+    padding: 0.3rem 1rem;
+}
+.Appointment-section .midale .chan .form-group .no-dis{
+    color: #f98f75;
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin-left: 1rem;
+}
+
+.Appointment-section .midale .head h2{
+    margin: 0.5rem 0 2rem 0 ;
+    font-weight: bold;
+
+}
+.Appointment-section .midale .head .title{
+    font-weight: bold;
+    color: #51d5a0;
+}
+
+.Appointment-section .midale .chan .form-group select{
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 25px;
+    outline: none;
+    padding: 0.3rem 1rem;
+}
+
+.Appointment-section .midale .chan .form-group textarea{
+    width: 100%;
+    height: 10rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    outline: none;
+    padding: 0.3rem 1rem;
+}
+
+.Appointment-section .midale .chan .form-group textarea:focus{
+    border-radius: 5px;
+    border: 1px solid #01bbbf;
+}
+
+.Appointment-section .midale .chan .form-group select:focus{
+    border-radius: 25px;
+    border: 1px solid #01bbbf;
+}
+.Appointment-section .midale .chan .form-group input:focus{
+   border-radius: 25px;
+   border: 1px solid #01bbbf;
+}
+
+.Appointment-section .midale .chan .form-group .ok{
+   width: 10rem;
+   height: 3rem;
+   outline: none;
+   margin: auto;
+   display: block;
+   background-color: #ffffff;
+   color: #01bbbf;
+   border-radius: 25px;
+   border: 1px solid #01bbbf;
+}
+
+.Appointment-section .midale .chan .form-group .ok:hover{
+   background-color: #01bbbf;
+   color: #ffffff;
+   border-radius: 25px;
+   border: 1px solid #ffffff;
+}
+
+@media only screen and (max-width:800px){ 
+   
+    .Appointment-section .midale{
+        width: 80%;
+    }
+    
+}
+
+/* second carousel  */
+#car .carousel-inner .item{
+    height: 380px;
+    padding-top: 2rem;
+}
+
+#car .font{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+}
+
+
+#cari .carousel-inner .item .text-center .card-body .div1{
+    width: 100%;
+}
+
+#cari .carousel-inner .item .text-center .card-body .div1 img{
+    width: 100%;
+    height: 220px;
+}
+#cari .carousel-inner .item .text-center .card-body .div2{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#cari .carousel-inner .item .text-center .card-body .div2 img{
+    width: 100%;
+    height: 220px;
+}
+
+#cari .carousel-inner .item .text-center .card-body .div1 img{
+    width: 100%;
+    height: 220px;
+}
+
+#cari .font{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+}
+
+#head h1{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+#bas{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width:800px){
+    #cari .carousel-inner .item .margin-top{
+        margin-top: 2rem;
+    }
+    #cari .carousel-inner .item .text-center .card-body .div2 img{
+        width: 90%;
+        height: 300px;
+    }
+    #cari .carousel-inner .item .text-center .card-body .div1 img{
+        width: 90%;
+        height: 300px;
+    }
+}
+@media only screen and (max-width:500px){
+    #cari .carousel-inner .item .margin-top{
+        margin-top: 2rem;
+    }
+    #cari .carousel-inner .item .text-center .card-body .div2 img{
+        width: 90%;
+        height: 250px;
+    }
+    #cari .carousel-inner .item .text-center .card-body .div1 img{
+        width: 90%;
+        height: 250px;
+    }
+}
+
+
+/* footer  */
+
+#fotter .col-lg-4 .img a{
+    font-family: 'Montserrat';
+    color: #01bbbf;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#fotter .col-lg-4 .img a img{
+    width: 4rem;
+    height: 4rem;
+}
+#fotter .col-lg-4 h4{
+    font-weight: bold;
+    color:#01bbbf;
+    margin: 1rem 0;
+}
+
+#fotter .col-lg-4 h5{
+    line-height: 1.5rem;
+}
+#fotter .col-lg-4 ul li{
+   list-style: none;
+   line-height: 1.7rem;
+}
+#fotter .col-lg-4 ul li a span{
+  color:#01bbbf;
+}
+#fotter .col-lg-4 ul li a{
+  text-decoration: none;
+  color: #111111;
+}
+.container .hr{
+    width: 100%;
+    height: 1px;
+    background-color: #01bbbf;
+}
+.container .color-copy{
+     color:#01bbbf;
+}
