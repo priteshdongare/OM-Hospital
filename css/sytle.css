@@ -460,6 +460,14 @@ animation: hart 1s linear infinite;
      #find .search-box input{
         width: 55%;
       }
+
+      #find .search-box input{
+        width: 80%;
+      }
+      #find .search-box button{
+        position: absolute;
+        left: 64.8%;
+      }
 }
 
 /* Appointment-section */
@@ -559,7 +567,7 @@ animation: hart 1s linear infinite;
 @media only screen and (max-width:800px){ 
    
     .Appointment-section .midale{
-        width: 80%;
+        width: 93%;
     }
     
 }
