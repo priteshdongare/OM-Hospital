@@ -169,6 +169,10 @@ html{
     .background-header .fixed .flex .img{
         width: 45%;
     }
+    .background-header .fixed .containerg{
+        width: 95%;
+        margin: 0 auto;
+    }
 
     .flexi{
         display: flex;
