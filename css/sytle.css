@@ -203,6 +203,8 @@ html{
         font-size: 2rem;
         color: #ffffff;
         cursor: pointer;
+        margin-top: 1rem;
+       
     }
     .list li {
       padding: 0.2rem 0;
@@ -245,7 +247,8 @@ html{
    .top .about-info p{
     font-size:  0.9rem;
    line-height: 1.4rem;
-}
+   }
+   
     
 }
 
