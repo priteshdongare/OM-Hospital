@@ -451,12 +451,12 @@ animation: hart 1s linear infinite;
     #find .search-box input{
         padding: 0rem 0.9rem;
         width: 47%;
-        height: 2rem;
+        height: 2.3rem;
       }
 
       #find .search-box button{
         width: 6rem;
-        height: 2rem;
+        height: 2.3rem;
       }
 
 }
