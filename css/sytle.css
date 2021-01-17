@@ -8,6 +8,31 @@ html{
     scroll-behavior: smooth;
 }
 
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,cyan ,cyan);
+    border-radius: 25px;
+    box-shadow: none;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #51d5a0 , #51d5a0);
+    border-radius: 25px;
+    box-shadow: none;
+}
+::-webkit-scrollbar-track{
+    border-radius: 25px;
+    box-shadow: inset 1px 1px 8px 1px grey;
+}
+
+
+
+
+
+
+
 .background-header{
     background-image: url("../img/Hospital\ banner.jpg");
     background-repeat: no-repeat;

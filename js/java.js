@@ -1,7 +1,6 @@
 $("span").click(function(){
     $(".ul").slideToggle();
 });
-
 function pritesh(){
     var om = document.getElementById("om").value;
     var ph = document.getElementById("ph").value;
